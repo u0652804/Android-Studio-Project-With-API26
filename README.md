@@ -102,3 +102,12 @@ main.xml (刪除 再加(否則會找錯資源導致crash)):
     // delete androidx.constraintlayout.widget.ConstraintLayout
     // and then keyin to add android.constraintlayout.widget.ConstraintLayout
     <android.constraintlayout.widget.ConstraintLayout
+
+### ps :
+define build apk name in build.grandle(app) will cause sync fail, please mark the code for sync
+
+1. mask code and sync : code like applicationVariants.all...
+
+2. Clean
+
+3. Rebuild Project
