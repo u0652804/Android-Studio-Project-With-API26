@@ -27,7 +27,8 @@ build.gradle(app)
         compile 'com.android.support.constraint:constraint-layout:1.0.2'// for support constraintLayout 
     }
     
-    
+part2
+
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
       targetSdkVersion 29
