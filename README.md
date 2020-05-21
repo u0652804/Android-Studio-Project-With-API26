@@ -117,7 +117,7 @@ when use 'compileOnly' in dependence will casue building error because of old gr
 build.gradle(app)
 
     dependencies {
-        compileOnly ... // cause error
+        compileOnly ... // cause error, can't use. please del it
         
         
 ### References
