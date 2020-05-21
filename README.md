@@ -104,10 +104,9 @@ main.xml (刪除 再加(否則會找錯資源導致crash)):
     <android.constraintlayout.widget.ConstraintLayout
 
 ### ps :
-define build apk name in build.grandle(app) will cause sync fail, please mark the code for sync
+when use 'compileOnly' in dependence will casue building error because of old grandle version not support this method.
 
-1. mask code and sync : code like applicationVariants.all...
+build.gradle(app)
 
-2. Clean
-
-3. Rebuild Project
+    dependencies {
+        compileOnly ... // cause error
