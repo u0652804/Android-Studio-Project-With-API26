@@ -1,6 +1,14 @@
 # Android-Studio-Project-With-API26
 step by step to setting for using API 26(Android lib)
 
+## tips
+
+1. some grandle version maybe not support too old API version to use
+
+2. if want use old API to compile maybe need to down the version of grandle, too
+
+3. old gradle verison maybe not support some dependence method like compileOnly
+
 ### step 1 :
 gradle-wrapper.properties
 
