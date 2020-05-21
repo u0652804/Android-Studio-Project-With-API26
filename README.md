@@ -110,3 +110,14 @@ build.gradle(app)
 
     dependencies {
         compileOnly ... // cause error
+        
+        
+### References
+
+plugin version : grandle version : https://developer.android.com/studio/releases/gradle-plugin
+
+grandle src list : https://services.gradle.org/distributions/
+
+build.grandle simple description tutorial : https://codertw.com/android-%E9%96%8B%E7%99%BC/353822/
+
+res of 3rd libs with maven : https://mvnrepository.com/
