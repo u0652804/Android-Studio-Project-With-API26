@@ -9,6 +9,13 @@ step by step to setting for using API 26(Android lib)
 
 3. old gradle verison maybe not support some dependence method like compileOnly
 
+## error log msg
+
+AAPT: error: resource android:attr/dialogCornerRadius not found.
+
+android.view.InflateException: Binary XML file line #2: Binary XML file line #2: Error inflating class androidx.constraintlayout.widget.ConstraintLayout
+
+
 ### step 1 :
 gradle-wrapper.properties
 
