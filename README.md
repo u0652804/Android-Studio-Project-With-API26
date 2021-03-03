@@ -3,9 +3,9 @@ step by step to setting for using API 26(Android lib)
 
 ## tips
 
-1. some grandle version maybe not support too old API version to use
+1. some gradle version maybe not support too old API version to use
 
-2. if want use old API to compile maybe need to down the version of grandle, too
+2. if want use old API to compile maybe need to down the version of gradle, too
 
 3. old gradle verison maybe not support some dependence method like compileOnly
 
@@ -119,7 +119,7 @@ main.xml (刪除 再加(否則會找錯資源導致crash)):
     <android.constraintlayout.widget.ConstraintLayout
 
 ### ps :
-when use 'compileOnly' in dependence will casue building error because of old grandle version not support this method.
+when use 'compileOnly' in dependence will casue building error because of old gradle version not support this method.
 
 build.gradle(app)
 
@@ -129,10 +129,10 @@ build.gradle(app)
         
 ### References
 
-plugin version : grandle version : https://developer.android.com/studio/releases/gradle-plugin
+plugin version : gradle version : https://developer.android.com/studio/releases/gradle-plugin
 
-grandle src list : https://services.gradle.org/distributions/
+gradle src list : https://services.gradle.org/distributions/
 
-build.grandle simple description tutorial : https://codertw.com/android-%E9%96%8B%E7%99%BC/353822/
+build.gradle simple description tutorial : https://codertw.com/android-%E9%96%8B%E7%99%BC/353822/
 
 res of 3rd libs with maven : https://mvnrepository.com/
